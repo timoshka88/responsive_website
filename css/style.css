@@ -1,0 +1,153 @@
+body {
+	font-family: 'Lemon', sans-serif;
+	color: #FFFFFF;
+	background: #420600 url('img/background_sunset_edited.png'); 
+	background-size: 100%;
+	/*background-color:rgb(255,0,0,0.5);*/
+}
+
+
+
+.pg-logo {
+	width: 300px;
+	float: left;
+	margin: 0 auto;
+}
+
+a {
+	color: #FF4500;
+	text-decoration: none;
+
+}
+
+
+h1 {
+	font-size: 1.750em;
+	letter-spacing: -1.5px;
+}
+
+h2 {
+	font-size: 1.500em;
+	color: #FF8C00;
+}
+
+#author {
+	text-align: right;
+	margin-right: 80px;
+	margin-top: 0px; 
+	font-size: 16px
+}
+
+.btn {
+	color: #FFFFFF;
+	background: #FF4500;
+	padding: 15px 30px; 
+	margin: 40px 0px;
+	border-radius: 25px; 
+	text-transform: uppercase; 
+}
+
+
+.btn:hover {
+	background-color: #4169E1;
+}
+
+
+.separator {
+	margin-top: 40px;
+}
+
+
+ul.nav {
+	margin: 110px 20px 0 0;
+	list-style: none;
+	float: right; 
+	padding: 0;
+
+}
+
+
+
+ul.nav li {
+	float: left;
+	margin-right: 20px;
+	border-right: 7px solid #FF4500;
+	text-align: left;
+	padding-right: 10px
+
+}
+
+
+ul.nav li a {
+	color: #FFFFFF;
+	font-size: 13px
+
+}
+
+.first {
+	border-left: 7px solid #FF4500;
+	padding-left: 10px
+}
+
+
+
+#intro {
+	margin: 10px 0 75px 0;
+	text-align: left;
+	font-size: 18px;
+}
+
+
+
+.center-title {
+	text-align: center;
+}
+
+#hobby img {
+	border: 8px solid #FAF3BC;
+}
+
+#hobby p {
+	padding-right: 10px
+}
+
+
+#fun-facts img {
+	border: 8px solid #FAF3BC;
+	margin: 0 0 20px 0;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+
+
+#contact p {
+	padding-left: 30px
+}
+
+#about-me p{
+	padding-right: 30px
+}
+
+#copyright {
+	border-top: 8px solid #2A0400;
+	padding: 10px 0;
+	margin: 15px 0px;
+	text-align: center; 
+}
+
+.list {
+	list-style: none;
+}
+
+.block-space {
+	margin-bottom: 60px;
+}
+
+
+
+
+
+
+

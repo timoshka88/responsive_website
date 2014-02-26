@@ -31,6 +31,12 @@ h2 {
 	color: #FF8C00;
 }
 
+img {
+	max-width: 100%
+}
+/*pforces all the images to scale down and fir within its containing element. It 
+also prevents images from exceeding beyond it's size. No need to define the height because the browser will scale automatically*/
+
 #author {
 	text-align: right;
 	margin-right: 80px ; /*5em;*/

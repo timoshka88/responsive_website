@@ -152,8 +152,8 @@ ul.nav li a {
 }
 
 /*media queries*/
-/*iPhone*/
-@media screen and (max-width: 480px) {
+/*small resolution*/
+@media screen and (max-width: 650px) {
 	.grid_1,
 	.grid_2,
 	.grid_3,
@@ -223,7 +223,7 @@ ul.nav li a {
 
 
 /*media queries*/
-/*iPad*/
+/*Medium resolution*/
 @media screen and (max-width: 1024px) {
 	#intro {
 		width: 100%; 

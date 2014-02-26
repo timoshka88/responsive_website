@@ -151,6 +151,85 @@ ul.nav li a {
 	margin-bottom: 60px ; /*3.75em ;*/
 }
 
+/*media queries*/
+/*iPhone*/
+@media screen and (max-width: 480px) {
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12 {
+		width: 100%
+	}
+
+	#nav ul {
+		margin: 5% 0;
+	}
+
+	#nav ul li a {
+		-webkit-user-select: none;
+	}
+
+	#nav ul li {
+		float: left;
+		margin: 5% 0;
+	}
+
+	#nav ul li.intro {
+		width: 20%;
+		text-align: left;
+	}
+
+	#nav ul li.hobby {
+		width: 50%;
+		text-align: center;
+	}
+
+	#nav ul li.portfolio {
+		width: 30%;
+		text-align: right;
+	}
+
+	#nav ul li.contact {
+		width: 100%;
+		margin: 0;
+		font-size:  1em;
+	}
+
+	#intro-img, #about-me {
+		display: none
+	}
+
+	/*not to display on this screen resolution*/
+
+	#hobby, #fun-facts {
+		margin: 5% 0;
+	}
+
+	#fun-facts img {
+		max-width: 95%;
+	}
+}
+
+/*so that in a mobile every div takes the width of the whole page and goes one after another*/
+/*max width we are setting the screen up to 480px and below*/
+
+
+/*media queries*/
+/*iPad*/
+@media screen and (max-width: 1024px) {
+
+}
+
+
+
 
 
 

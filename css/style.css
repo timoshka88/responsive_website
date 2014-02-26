@@ -225,8 +225,49 @@ ul.nav li a {
 /*media queries*/
 /*iPad*/
 @media screen and (max-width: 1024px) {
+	#intro {
+		width: 100%; 
+	}
+	#intro-img {
+		display: none;
+	}
+	#intro p {
+		margin:  0 0 5% 0;
+	}
+	.pg-logo {
+		width: 100%;
+		text-align: center;
+	}
+	.pg-logo img {
+		max-width: 55%;
+	}
+	#nav {
+		width: 100%;
+	}
+	#nav ul {
+		margin: 0;
+	}
+
+	#nav ul li {
+		float: left;
+		margin: 5% 0 0 0;
+		}
+	#nav ul li.intro {
+		width: 15%;
+		}
+	#nav ul li.hobby {
+		width: 35%;
+		}
+	#nav ul li.portfolio {
+		width: 25%;
+		}
+	#nav ul li.contact {
+		width: 25%;
+		margin: 5% 0 2% 0;
+		}
 
 }
+
 
 
 

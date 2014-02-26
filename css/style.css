@@ -9,7 +9,7 @@ body {
 
 
 .pg-logo {
-	width: 18.75em; /*300px;*/
+	width: 300px; /* 18.75em;*/
 	float: left;
 	margin: 0 auto;
 }
@@ -33,17 +33,17 @@ h2 {
 
 #author {
 	text-align: right;
-	margin-right: 5em; /*80px;*/
-	margin-top: 0em; /*0px; */
+	margin-right: 80px ; /*5em;*/
+	margin-top: 0px;
 	font-size: 1em; /*16px*/
 }
 
 .btn {
 	color: #FFFFFF;
 	background: #FF4500;
-	padding: 0.9375em 1.875em; /*15px 30px;*/ 
-	margin: 2.5em 0em; /*40px 0px;*/
-	border-radius: 1.5625em; /*25px;*/ 
+	padding: 15px 30px ; /*0.9375em 1.875em;*/ 
+	margin: 40px 0px ; /*2.5em 0em;*/
+	border-radius: 25px; /*1.5625em;*/ 
 	text-transform: uppercase; 
 }
 
@@ -54,12 +54,12 @@ h2 {
 
 
 .separator {
-	margin-top: 2.5em; /*40px;*/
+	margin-top: 40px ; /*2.5em;*/
 }
 
 
 ul.nav {
-	margin: 6.875em 1.25em 0 0; /*110px 20px 0 0;*/
+	margin: 110px 20px 0 0 ; /*6.875em 1.25em 0 0;*/
 	list-style: none;
 	float: right; 
 	padding: 0;
@@ -70,10 +70,10 @@ ul.nav {
 
 ul.nav li {
 	float: left;
-	margin-right: 1.25em; /*20px;*/
-	border-right: 0.4375em solid #FF4500; /*7px ;*/
+	margin-right: 20px ; /*1.25em;*/
+	border-right: 7px solid #FF4500; /* 0.4375em ;*/
 	text-align: left;
-	padding-right: 0.625em; /*10px*/
+	padding-right: 10px ; /*0.625em*/
 
 }
 
@@ -85,14 +85,14 @@ ul.nav li a {
 }
 
 .first {
-	border-left: 0.4375em solid #FF4500; /*7px*/
-	padding-left: 0.625em; /*10px*/
+	border-left: 7px  solid #FF4500; /*0.4375em*/
+	padding-left: 10px ; /*0.625em*/
 }
 
 
 
 #intro {
-	margin: 0.625em 0 4.6875em 0; /*10px 0 75px 0*/
+	margin: 10px 0 75px 0 ; /*0.625em 0 4.6875em 0*/
 	text-align: left;
 	font-size: 1.125em; /*18px;*/
 }
@@ -104,17 +104,17 @@ ul.nav li a {
 }
 
 #hobby img {
-	border: 0.5em  solid #FAF3BC; /*8px*/
+	border: 8px solid #FAF3BC; /*0.5em*/
 }
 
 #hobby p {
-	padding-right: 0.625em; /*10px*/
+	padding-right: 10px ; /*0.625em*/
 }
 
 
 #fun-facts img {
-	border: 0.5em  solid #FAF3BC; /*8px*/
-	margin: 0 0 1.25em 0; /*0 0 20px 0*/
+	border: 8px  solid #FAF3BC;/* 0.5em */
+	margin: 0 0 20px 0 ; /*0 0 1.25em 0*/
 	display: block;
     margin-left: auto;
     margin-right: auto
@@ -123,17 +123,17 @@ ul.nav li a {
 
 
 #contact p {
-	padding-left: 1.875em; /*30px*/
+	padding-left: 30px ; /*1.875em*/
 }
 
 #about-me p{
-	padding-right: 1.875em; /*30px*/
+	padding-right: 30px ; /*1.875em*/
 }
 
 #copyright {
-	border-top: 0.5em solid #2A0400; /*8px */
-	padding: 0.625em 0; /*10px 0;*/
-	margin: 0.9375em 0; /*15px 0*/
+	border-top: 8px solid #2A0400; /*0.5em*/
+	padding:10px 0 ; /*0.625em 0 ;*/
+	margin: 15px 0 ; /*0.9375em 0*/
 	text-align: center; 
 }
 
@@ -142,7 +142,7 @@ ul.nav li a {
 }
 
 .block-space {
-	margin-bottom: 3.75em; /* 60px;*/
+	margin-bottom: 60px ; /*3.75em ;*/
 }
 
 

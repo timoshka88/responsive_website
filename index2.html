@@ -3,11 +3,8 @@
 <head>
 	<meta http-equiv="Content-Type" content = "text/html; charset=utf-8"/> 
 
-
-
 	<title>A Little Bit About Me</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
-
 
 	<link rel="stylesheet" type="text/css" href="css/grid.css" media="screen">
 
@@ -18,7 +15,7 @@
 	<!--important to put it after the font link-->
 	<link href="css/hover.css" rel="stylesheet" media="all">
 
-	<meta name="viewport" content="width=device-width, initial-scale =1.0, user-scalable= no">
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable= no">
 	<!-- the content attribute can include dif values. However, the best thing is to let the browser adapt it depending on the screen device, that is the best option for the fluid design. Therefore, we used the value above -->
 	<!-- initial scale tells the website to fit within the visible area of viewport. Since we've customized our website for a mobile, we can disable the zoom feature by also setting the user scalable = no to the viewport code -->
 
@@ -26,16 +23,17 @@
 
 <body>
 	<div class="container clearfix"> 
-		<div class="pg-logo">
+		<div id="pg-logo">
 			<img src="img/PocketGopher_print.png" alt="PocketGopher logo">
 		</div>
+		<!-- find if you can do it online -->
 		
-	  <div > 
-		  <ul class="nav">
-		  	<li class="first intro"><a href="#intro">My Current Life Slogan</a></li>
+	  <div id="nav" class="grid_8 omega"> 
+		  <ul>
+		  	<li class="intro"><a href="#intro">My Current Life Slogan</a></li>
 		  	<li class="hobby"><a href="#hobby">Some Facts</a></li>
 		  	<li class="portfolio"><a href="#portfolio">Portfolio</a></li>
-		  	<li class="last contact"><a href="#contact">Wanna chat?</a></li>
+		  	<li class="contact"><a href="#contact">Wanna chat?</a></li>
 		  </ul>
 	  </div>
 
@@ -106,6 +104,7 @@
 
 
 </div>
+
 </body>
 
 </html>

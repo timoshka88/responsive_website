@@ -39,6 +39,10 @@ img {
 /*pforces all the images to scale down and fir within its containing element. It 
 also prevents images from exceeding beyond it's size. No need to define the height because the browser will scale automatically*/
 
+.highlight {
+	color: #FF4500;
+}
+
 #author {
 	text-align: right;
 	margin-right: 10.74% ; /*80px;*/
@@ -201,7 +205,8 @@ span.big-letter {
 
 /*media queries*/
 /*small resolution*/
-@media screen and (max-width: 650px) {
+@media screen and (max-width : 650px) {
+	
 	.grid_1,
 	.grid_2,
 	.grid_3,
@@ -221,13 +226,13 @@ span.big-letter {
 		margin: 5% 0;
 	}
 
-	#nav ul li a {
+	/*#nav ul li a {
 		-webkit-user-select: none;
-	}
+	}*/
 
 	#nav ul li {
 		float: left;
-		margin: 5% 0;
+		margin: 5% 2%;
 	}
 
 	#nav ul li.intro {
@@ -236,33 +241,37 @@ span.big-letter {
 	}
 
 	#nav ul li.hobby {
-		width: 50%;
-		text-align: center;
+		width: 20%;
+		/*text-align: center;*/
 	}
 
 	#nav ul li.portfolio {
-		width: 30%;
-		text-align: right;
+		width: 20%;
+		/*text-align: right;*/
 	}
 
 	#nav ul li.contact {
-		width: 100%;
-		margin: 0;
+		width: 20%;
+		text-align: right;
+		/*margin: 0;
 		font-size:  1em;
-		font-weight: 100;
+		font-weight: 100;*/
+	}
+
+	#intro {
+		margin-top: 5%;
+
 	}
 
 	#intro-img, #about-me {
 		display: none
 	}
-
 	/*not to display on this screen resolution*/
 
 	#hobby, #fun-facts {
 		margin: 5% 0;
 		text-align: center
 	}
-
 	/*#fun-facts {
 		text-align: center;
 	}*/
@@ -271,6 +280,9 @@ span.big-letter {
 		max-width: 95%;
 	}
 }
+
+
+
 
 /*so that in a mobile every div takes the width of the whole page and goes one after another*/
 /*max width we are setting the screen up to 480px and below*/
@@ -286,6 +298,7 @@ span.big-letter {
 		display: none;
 	}
 	#intro p {
+		text-align: center;
 		margin:  0 0 5% 0;
 	}
 	#pg-logo {
@@ -297,6 +310,7 @@ span.big-letter {
 	}
 	#nav {
 		width: 100%;
+		text-align: center;
 	}
 	#nav ul {
 		margin: 0;
@@ -304,27 +318,40 @@ span.big-letter {
 
 	#nav ul li {
 		float: left;
-		margin: 5% 0 0 0;
+		margin: 0 0 2% 0;
 		}
 	#nav ul li.intro {
-		width: 15%;
-		}
-	#nav ul li.hobby {
 		width: 35%;
 		}
-	#nav ul li.portfolio {
+	#nav ul li.hobby {
 		width: 25%;
+		}
+	#nav ul li.portfolio {
+		width: 15%;
 		}
 	#nav ul li.contact {
 		width: 25%;
-		margin: 5% 0 2% 0;
+		/*margin: 5% 0 2% 0;*/
 		}
+
+
+	#author {
+	/*padding-right: 33.56%; *//*250px*/
+	/*text-align: right;*/
+	 /*80px;*/
+	/*margin-top: 0px;*/
+	font-size: 1em; /*16px*/
+	font-weight: 100;
+}
+
 
 	#fun-facts, #hobby {
 		text-align: center;
 	}	
 
 }
+
+
 
 
 

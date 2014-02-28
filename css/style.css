@@ -65,7 +65,10 @@ also prevents images from exceeding beyond it's size. No need to define the heig
 /*.separator {
 	margin-top: 40px ; /*2.5em;*/
 
-
+span.big-letter {
+	font-size: 1.53846154em; /*20px*/
+	color: #FF8C00;
+}
 
 #nav ul  {
 	/*margin: auto;*/
@@ -82,33 +85,68 @@ also prevents images from exceeding beyond it's size. No need to define the heig
 
 #nav ul li {
 	float: left;
-	margin-right: 20px ; /*1.25em;*/
-	border-right: 7px solid #FF4500; /* 0.4375em ;*/
-	text-align: left;
-	padding-right: 10px ; /*0.625em*/
+	/*margin-right: 20px*/ ; /*1.25em;*/
+	/*border-right: 4px solid #FF4500;*/ /* 0.4375em ;*/
+	/*text-align: left;*/
+	/*padding-right: 10px*/ ; /*0.625em*/
 
 }
+
+	#nav ul li.intro {
+		width: 30%;
+	}
+	#nav ul li.hobby {
+		width: 17%;
+	}
+	#nav ul li.portfolio {
+		width: 15%;
+	}
+	#nav ul li.contact {
+		width: 22%;
+	/*	margin: 0 5% 0 5%;
+		padding: 8px 0;
+		color: #faf3bc;
+		font-family: 'Nunito', sans-serif;
+		text-align: center;
+		border: 0;
+		font-weight: 100;
+		font-size: .75em;
+		background: #b22316 url('texture.png') no-repeat right top;;
+		border-radius: 25px;
+		-webkit-border-radius: 25px;
+		-moz-border-radius: 25px;
+		text-transform: uppercase;*/
+	}
+
 
 
 #nav ul li a {
 	color: #FFFFFF;
 	font-size: 0.8125em; /*13px*/
 	font-weight: 100;
+	display: block;
+	text-decoration: none;
 
 }
 
-.first {
-	border-left: 7px  solid #FF4500; /*0.4375em*/
+/*.first {
+	border-left: 7px  solid #FF4500; 0.4375em
 	padding-left: 10px ; /*0.625em*/
-}
+
+
+/*
+
+#intro {
+	margin: 10px 0 75px 0 ; /*0.625em 0 4.6875em 0*/
+	/*text-align: left;
+	font-size: 1.125em; /*18px;*/
+	/*font-weight: 100;
+} */
 
 
 
 #intro {
-	margin: 10px 0 75px 0 ; /*0.625em 0 4.6875em 0*/
-	text-align: left;
-	font-size: 1.125em; /*18px;*/
-	font-weight: 100;
+	margin: 0 0 5% 0;
 }
 
 
@@ -122,13 +160,13 @@ also prevents images from exceeding beyond it's size. No need to define the heig
 }
 
 #hobby p {
-	padding-right: 10px ; /*0.625em*/
+	padding-right: 1.74% ; /*10px*/
 }
 
 
 #fun-facts img {
 	border: 8px  solid #FAF3BC;/* 0.5em */
-	margin: 0 0 20px 0; /*0 0 1.25em 0*/
+	margin: 0 0 4.94% 0; /*0 0 20px 0*/
 	display: block;
     margin-left: auto;
     margin-right: auto
@@ -137,17 +175,17 @@ also prevents images from exceeding beyond it's size. No need to define the heig
 
 
 #contact p {
-	padding-left: 30px ; /*1.875em*/
+	padding-left: 7.41% ; /*30px*/
 }
 
 #about-me p{
-	padding-right: 30px ; /*1.875em*/
+	padding-right: 5.22% ; /*30px*/
 }
 
 #copyright {
 	border-top: 8px solid #2A0400; /*0.5em*/
-	padding:10px 0 ; /*0.625em 0 ;*/
-	margin: 15px 0 ; /*0.9375em 0*/
+	padding:2% 0 ; /*10px 0*/
+	margin: 2% 0 ; /*15px 0*/
 	text-align: center; 
 }
 
@@ -156,8 +194,10 @@ also prevents images from exceeding beyond it's size. No need to define the heig
 }
 
 .block-space {
-	margin-bottom: 60px ; /*3.75em ;*/
+	margin-bottom: 14.81% ; /*60px*/
 }
+
+
 
 /*media queries*/
 /*small resolution*/
